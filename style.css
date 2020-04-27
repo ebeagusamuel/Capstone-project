@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+	--default-font-size: 16px;
+	--color1: #de493e;
+	--color2: #3e91de;
+	--color3: #fff;
+	--color4: #f5be51;
+	--color5: #2e2d2b;
+	--font-family: 'Roboto', sans-serif;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: var(--font-family);
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+ul, li {
+	list-style: none;
+}
+
+.nav-container {
+	background-color: var(--color1);
+	color: var(--color3);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0 2em;
+}
+
+.nav-logo-container, .nav-links-container {
+	margin: 0.5em 0;
+}
+
+.nav-logo-container #location-icon {
+	font-size: 2rem;
+}
+
+.nav-links-container li {
+	display: inline-block;
+	margin: 0 1em;
+	/* font-size: 1.5rem; */
+}
+
+.nav-links-container span {
+	display: none;
+}
+
+.search-div {
+	height: calc(100vh - 88px);
+	background-image: linear-gradient(to bottom, rgba(23, 23, 24, 0.52), rgba(54, 50, 53, 0.73)), url(./images/school-image1.jpg);
+	background-size: cover;
+	background-position: 50% 100%;
+	background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 768px) {
+	.nav-container {
+	flex-direction: row;
+	justify-content: space-evenly;
+	}
+
+	.nav-links-container span {
+		display: inline-block;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.nav-container {
+		flex-direction: row;
+		justify-content: space-between;
+		padding: 2em;
+	}
+
+	.nav-links-container span {
+		display: inline-block;
+	}
+}
