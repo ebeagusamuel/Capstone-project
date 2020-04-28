@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FindMeAHotel</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <nav class="nav-container">
+        <div class="nav-logo-container">
+          <ion-icon id="location-icon" name="location-sharp"></ion-icon>
+          FindMeAHotel
+        </div>
+        <div class="nav-links-container">
+          <ul>
+            <li><a href="#">
+              <ion-icon name="search-sharp"></ion-icon>
+              <span>SCHOOLS</span>
+            </a></li>
+            <li><a href="#about">
+              <ion-icon name="person-sharp"></ion-icon>
+              <span>ABOUT</span>
+            </a></li>
+            <li><a href="#">
+              <ion-icon name="wifi-sharp"></ion-icon>
+              <span>BLOG</span>
+            </a></li>
+            <li><a href="#">
+              <ion-icon name="reorder-four-sharp"></ion-icon>
+              <span>MORE...</span>
+            </a></li>
+          </ul>
+        </div>
+    </nav>
+
+    <main>
+        <div class="filter-div">
+            <h5>
+                Filter by name, street, star, room-type:
+            </h5>
+            <form action="#">
+                <div>
+                    <label for="name">HOTEL NAME:</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div>
+                    <label for="street">STREET:</label>
+                    <select id="street">
+                        <option value="Middle rd">Middle rd</option>
+                        <option value="Airport rd">Airport rd</option>
+                        <option value="Nomansland">Nomansland</option>
+                        <option value="Church rd">Church rd</option>
+                      </select>
+                </div>
+                <div>
+                    <label for="star">STAR:</label>
+                    <select id="star">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                      </select>
+                </div>
+                <div>
+                    <label for="room-type">ROOM-TYPE:</label>
+                    <select id="room-type">
+                        <option value="single">Single</option>
+                        <option value="double">Double</option>
+                        <option value="triple">Triple</option>
+                        <option value="deluxe">Deluxe</option>
+                        <option value="deluxe-suite">Deluxe-Suite</option>
+                      </select>
+                </div>
+                <div>
+                    <label class="hidden" for="submit">Search</label>
+                    <input type="submit" value="Search" id="search">
+                </div>
+                <div>
+                    <label class="hidden" for="reset">Reset</label>
+                    <input type="button" value="Reset" id="reset">
+                </div>
+            </form>
+        </div>
+    </main>
+    
+    <footer class="footer-container">
+        <div>
+          <h4>SUBSCRIBE</h4>
+          <form action="#">
+            <input type="email" name="email" id="email" placeholder="you@example.com">
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+        <div>
+          <h4>CONTACT</h4>
+          <p>
+            Have a question or submission?
+          </p>
+          <span>samuelebeagu@gmail.com</span>
+        </div>
+        <div id="about">
+          <h4>ABOUT</h4>
+          <p>
+            FindMeAHotel is an online platform to help people in Sabon-Gari Kano State find suitable hotels to lodge in, by simply searching by name, location, hotel star level and more. 
+          </p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+</body>
+</html>

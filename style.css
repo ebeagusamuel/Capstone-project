@@ -68,7 +68,7 @@ li {
   background-position: 50% 100%;
   background-repeat: no-repeat;
   color: var(--color3);
-  padding-top: 150px;
+  padding-top: 9.375em;
 }
 
 .search-div h4 {
@@ -81,7 +81,7 @@ li {
   display: flex;
   flex-direction: column;
   margin: 0 1.25em;
-  padding: 10px 0;
+  padding: 0.625em 0;
   background-color: var(--color6);
   opacity: 0.9;
   border-radius: 3px;
@@ -90,8 +90,8 @@ li {
 .search-div h6 {
   text-align: center;
   display: inline-block;
-  margin: 20px auto;
-  padding: 5px;
+  margin: 1.25em auto;
+  padding: 0.3125em;
   background-color: var(--color6);
   color: var(--color5);
 }
@@ -99,7 +99,7 @@ li {
 .label-div {
   display: flex;
   flex-direction: column;
-  padding: 0 17px;
+  padding: 0 1.0625em;
 }
 
 .label-div label {
@@ -114,7 +114,7 @@ li {
 
 .submit-div {
   margin-top: 0.3125em;
-  padding: 0 17px;
+  padding: 0 1.0625em;
 }
 
 .submit-div input {
@@ -132,7 +132,7 @@ li {
 }
 
 .how-to-container {
-  padding: 0 5px;
+  padding: 0 0.3125em;
 }
 
 .how-to-container h3 {
@@ -148,7 +148,7 @@ li {
 }
 
 .howto-desc h5 {
-  margin: 15px 0;
+  margin: 0.9375em 0;
 }
 
 .howto-desc p {
@@ -161,7 +161,7 @@ li {
   color: var(--color6);
   display: flex;
   flex-direction: column;
-  padding: 0 5px;
+  padding: 0 0.3125em;
 }
 
 .footer-container div {
@@ -169,7 +169,7 @@ li {
 }
 
 .footer-container h4 {
-  margin: 15px 0;
+  margin: 0.9375em 0;
   font-size: 1rem;
 }
 
@@ -188,6 +188,12 @@ li {
   justify-content: center;
 }
 
+.filter-div form div input {
+  width: auto;
+  border: none;
+  border-radius: 2px;
+}
+
 .footer-container form input:first-child {
   background-color: var(--color7);
   border: 1px solid var(--color5);
@@ -198,6 +204,36 @@ li {
   background-color: var(--color5);
   color: var(--color6);
   border: none;
+}
+
+.filter-div {
+  background-color: var(--color6);
+  color: var(--color5);
+  margin: 1em 0;
+  padding: 0.5em 3em;
+}
+
+.filter-div form div {
+  display: flex;
+  flex-direction: column;
+  margin: 0.3125em auto;
+}
+
+.filter-div form div label {
+  font-size: 0.8rem;
+  padding-bottom: 0.5em;
+}
+
+#search {
+  background-color: var(--color2);
+}
+
+#reset {
+  background-color: var(--color4);
+}
+
+.hidden {
+  display: none;
 }
 
 @media screen and (min-width: 768px) {
@@ -212,7 +248,7 @@ li {
 
   .search-div {
     height: calc(60vh - 52px);
-    padding-top: 20px;
+    padding-top: 1.25em;
   }
 
   .search-div h4 {
@@ -222,8 +258,8 @@ li {
   .search-div form {
     flex-direction: row;
     align-items: flex-end;
-    margin: 0 120px;
-    padding: 10px 0;
+    margin: 0 7.5em;
+    padding: 0.625em 0;
   }
 
   .label-div {
@@ -266,6 +302,25 @@ li {
     color: var(--color6);
     border: none;
   }
+
+  .filter-div {
+    padding: 0.5em 0;
+  }
+
+  .filter-div h5 {
+    text-align: center;
+  }
+
+  .filter-div form {
+    width: 540px;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  .hidden {
+    display: inline-block;
+    visibility: hidden;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -280,7 +335,7 @@ li {
   }
 
   .search-div form {
-    margin: 0 300px;
+    margin: 0 18.75em;
   }
 
   .howto-desc {
@@ -288,6 +343,6 @@ li {
   }
 
   .howto-desc p {
-    padding: 0 60px;
+    padding: 0 3.75em;
   }
 }
