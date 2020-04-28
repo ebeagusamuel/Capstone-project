@@ -8,6 +8,7 @@
   --color4: #f5be51;
   --color5: #2e2d2b;
   --color6: #d4cfc1;
+  --color7: #000;
   --font-family: 'Roboto', sans-serif;
 }
 
@@ -62,7 +63,7 @@ li {
 
 .search-div {
   height: calc(100vh - 88px);
-  background-image: url(./images/school-image2.jpg);
+  background-image: url(./images/hotel-1.jpeg);
   background-size: cover;
   background-position: 50% 100%;
   background-repeat: no-repeat;
@@ -131,28 +132,72 @@ li {
 }
 
 .how-to-container {
-	padding: 0 5px;
+  padding: 0 5px;
 }
 
 .how-to-container h3 {
-	color: var(--color1);
-	font-size: 0.8rem;
-	text-align-last: center;
+  color: var(--color1);
+  font-size: 0.8rem;
+  text-align-last: center;
 }
 
 .howto-desc {
-	display: grid;
-	grid-template-columns: 1fr;
-	text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
 }
 
 .howto-desc h5 {
-	margin: 15px 0;
+  margin: 15px 0;
 }
 
 .howto-desc p {
-	font-size: 0.8rem;
-	color: (var(--color5));
+  font-size: 0.8rem;
+  color: (var(--color5));
+}
+
+.footer-container {
+  background-color: var(--color7);
+  color: var(--color6);
+  display: flex;
+  flex-direction: column;
+  padding: 0 5px;
+}
+
+.footer-container div {
+  text-align: center;
+}
+
+.footer-container h4 {
+  margin: 15px 0;
+  font-size: 1rem;
+}
+
+.footer-container p {
+  font-size: 0.8rem;
+  margin-bottom: 0;
+}
+
+.footer-container span {
+  font-size: 0.8rem;
+  color: var(--color1);
+}
+
+.footer-container form {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-container form input:first-child {
+  background-color: var(--color7);
+  border: 1px solid var(--color5);
+  border-right: none;
+}
+
+.footer-container form input:last-child {
+  background-color: var(--color5);
+  color: var(--color6);
+  border: none;
 }
 
 @media screen and (min-width: 768px) {
@@ -200,6 +245,27 @@ li {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
   }
+
+  .footer-container {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .footer-container div {
+    width: 30%;
+  }
+
+  .footer-container form input:first-child {
+    background-color: var(--color7);
+    border: 1px solid var(--color5);
+    border-right: none;
+  }
+
+  .footer-container form input:last-child {
+    background-color: var(--color5);
+    color: var(--color6);
+    border: none;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -211,17 +277,17 @@ li {
 
   .nav-links-container span {
     display: inline-block;
-	}
+  }
 
-	.search-div form {
-		margin: 0 300px;
-	}
-	
-	.howto-desc {
-		grid-template-columns: 1fr 1fr;
-	}
+  .search-div form {
+    margin: 0 300px;
+  }
 
-	.howto-desc p {
-		padding: 0 60px;
-	}
+  .howto-desc {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .howto-desc p {
+    padding: 0 60px;
+  }
 }
