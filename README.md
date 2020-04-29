@@ -11,14 +11,6 @@ Basically it has 3 pages:
 - the search result page, where the result of available hotels are returned.
 - the details page, where more details of a particular hotel is displayed.
 
-### Main Page Desktop View
-
-![screenshot](./images/desktop-view.PNG)
-
-### Main page Mobile View
-
-![screenshot](./images/mobile-view.PNG)
-
 ## Built With
 
 - HTML
