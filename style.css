@@ -157,6 +157,51 @@ li {
   color: (var(--color5));
 }
 
+.colored {
+	display: flex;
+	justify-content: space-between;
+	background-color: var(--color1);
+	color: var(--color3);
+	padding: 30px 10px;
+}
+
+.colored div:first-child h4 {
+	font-size: 1rem;
+	margin-bottom: 10px;
+}
+
+.colored div:first-child p {
+	font-size: 0.8rem;
+	font-style: italic;
+	margin: 10px 0;
+	padding-right: 60px;
+}
+
+.colored div:first-child button {
+	border: none;
+	border-radius: 5px;
+	color: var(--color1);
+	background-color: var(--color3);
+	padding: 6px;
+}
+
+.colored div:last-child img {
+	width: 120px;
+	height: 120px;
+	max-width: 150px;
+	max-height: 150px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+.colored:nth-last-child(2) {
+	background-color: var(--color6);
+}
+
+.colored:last-child {
+	background-color: var(--color2);
+}
+
 .footer-container {
   background-color: var(--color7);
   color: var(--color6);
@@ -272,7 +317,7 @@ li {
 .result-div span p {
   font-size: 1rem;
   color: var(--color1);
-  margin: 0 10px;
+  margin: 0 0.625em;
   font-style: italic;
 }
 
@@ -287,6 +332,8 @@ li {
 
 .details-div {
   padding: 0 0.3125em;
+  border-radius: 3px;
+  box-shadow: 5px 10px 50px var(--color6);
 }
 
 .details-grid {
@@ -297,13 +344,13 @@ li {
 
 .details-div button {
   margin: 20px 0;
-  padding: 5px 10px;
+  padding: 0.3125em 0.625em;
   border: none;
   background-color: var(--color1);
 }
 
 .iframe-div {
-  margin: 20px 0;
+  margin: 1.25em 0;
 }
 
 .iframe iframe {
@@ -354,7 +401,16 @@ li {
   .submit-div input {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
-  }
+	}
+	
+	.colored div:first-child {
+		margin-left: 50px;
+	}
+
+	.colored div:last-child img {
+		width: 150px;
+		height: 150px;
+	}
 
   .footer-container {
     flex-direction: row;
