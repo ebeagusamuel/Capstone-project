@@ -9,26 +9,26 @@
 <body>
     <nav class="nav-container">
         <div class="nav-logo-container">
-          <ion-icon id="location-icon" name="location-sharp"></ion-icon>
+          <ion-icon class="location-icon" name="location-sharp"></ion-icon>
           FindMeAHotel
         </div>
         <div class="nav-links-container">
           <ul>
             <li><a href="#">
               <ion-icon name="search-sharp"></ion-icon>
-              <span>HOTELS</span>
+              <span class="nav-texts">HOTELS</span>
             </a></li>
             <li><a href="#about">
               <ion-icon name="person-sharp"></ion-icon>
-              <span>ABOUT</span>
+              <span class="nav-texts">ABOUT</span>
             </a></li>
             <li><a href="#">
               <ion-icon name="wifi-sharp"></ion-icon>
-              <span>BLOG</span>
+              <span class="nav-texts">BLOG</span>
             </a></li>
             <li><a href="#">
               <ion-icon name="reorder-four-sharp"></ion-icon>
-              <span>MORE...</span>
+              <span class="nav-texts">MORE...</span>
             </a></li>
           </ul>
         </div>
@@ -39,10 +39,10 @@
             <h5>
                 Filter by name, street, star, room-type:
             </h5>
-            <form action="#">
+            <form class="filter-div-form" action="#">
                 <div>
                     <label for="name">HOTEL NAME:</label>
-                    <input type="text" name="name" id="name">
+                    <input class="form-input" type="text" name="name" id="name">
                 </div>
                 <div>
                     <label for="street">STREET:</label>
@@ -75,11 +75,11 @@
                 </div>
                 <div>
                     <label class="hidden">Search</label>
-                    <input type="submit" value="Search" id="search">
+                    <input class="form-input search" type="submit" value="Search">
                 </div>
                 <div>
                     <label class="hidden">Reset</label>
-                    <input type="button" value="Reset" id="reset">
+                    <input class="form-input reset" type="button" value="Reset">
                 </div>
             </form>
         </div>
@@ -90,7 +90,7 @@
                     <img src="../images/hotel-2.jpeg" alt="hotel-image">
                     <div>
                         <p>Mandela Hotels and suite</p>
-                        <p>click <a href="./details.html">here</a> for more details</p>
+                        <p>click <a href="./details.html" target="_blank">here</a> for more details</p>
                     </div>
                 </div>
                 <div class="result-img-div">
@@ -163,9 +163,9 @@
         <div class="footer-container">
           <div>
             <h4>SUBSCRIBE</h4>
-            <form action="#">
-              <input type="email" name="email" id="email" placeholder="you@example.com">
-              <input type="submit" value="Submit">
+            <form class="footer-container-form" action="#">
+              <input class="form-input" type="email" name="email" id="email" placeholder="you@example.com">
+              <input class="form-input" type="submit" value="Submit">
             </form>
           </div>
           <div>
@@ -173,7 +173,7 @@
             <p>
               Have a question or submission?
             </p>
-            <span>samuelebeagu@gmail.com</span>
+            <span class="email">samuelebeagu@gmail.com</span>
           </div>
           <div id="about">
             <h4>ABOUT</h4>

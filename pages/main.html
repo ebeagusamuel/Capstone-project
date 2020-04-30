@@ -9,41 +9,41 @@
 <body>
 	<nav class="nav-container">
     <div class="nav-logo-container">
-      <ion-icon id="location-icon" name="location-sharp"></ion-icon>
+      <ion-icon class="location-icon" name="location-sharp"></ion-icon>
       FindMeAHotel
     </div>
     <div class="nav-links-container">
       <ul>
         <li><a href="#">
           <ion-icon name="search-sharp"></ion-icon>
-          <span>HOTELS</span>
+          <span class="nav-texts">HOTELS</span>
         </a></li>
         <li><a href="#about">
           <ion-icon name="person-sharp"></ion-icon>
-          <span>ABOUT</span>
+          <span class="nav-texts">ABOUT</span>
         </a></li>
         <li><a href="#">
           <ion-icon name="wifi-sharp"></ion-icon>
-          <span>BLOG</span>
+          <span class="nav-texts">BLOG</span>
         </a></li>
         <li><a href="#">
           <ion-icon name="reorder-four-sharp"></ion-icon>
-          <span>MORE...</span>
+          <span class="nav-texts">MORE...</span>
         </a></li>
       </ul>
     </div>
   </nav>
 
   <main class="main-container">
-    <section id="Search" class="search-div">
+    <section  id="Search" class="search-div">
       <h1>MAKE EXCELLENT HOTEL CHOICES IN SABON-GARI USING FindMeAHotel</h1>
-      <form action="./search.html">
+      <form class="search-div-form" action="./search.html" target="_blank">
         <div class="label-div">
           <label>SEARCH BY KEYWORD:</label>
-          <input type="text" name="search">
+          <input class="form-input" type="text" name="search">
         </div>
         <div class="submit-div">
-          <input type="submit" value="Search">
+          <input class="form-input" type="submit" value="Search">
         </div>
       </form>
       <div class="how-it-works">
@@ -146,9 +146,9 @@
     <div class="footer-container">
       <div>
         <h4>SUBSCRIBE</h4>
-        <form action="#">
-          <input type="email" name="email" id="email" placeholder="you@example.com">
-          <input type="submit" value="Submit">
+        <form class="footer-container-form" action="#">
+          <input class="form-input" type="email" name="email" id="email" placeholder="you@example.com">
+          <input class="form-input" type="submit" value="Submit">
         </form>
       </div>
       <div>
@@ -156,7 +156,7 @@
         <p>
           Have a question or submission?
         </p>
-        <span>samuelebeagu@gmail.com</span>
+        <span class="email">samuelebeagu@gmail.com</span>
       </div>
       <div id="about">
         <h4>ABOUT</h4>
