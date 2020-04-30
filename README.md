@@ -29,7 +29,7 @@ Basically it has 3 pages:
 [Live Demo Link](https://raw.githack.com/ebeagusamuel/FindMeAHotel/f-FMAS/pages/main.html)
 
 ## Video Preview
-[Video Preview Link](https://www.loom.com/share/71f193074d4048d0a3e66e7a89ae76c3)
+[Video Preview Link](https://www.loom.com/share/c60a90e022564af2bbba3018353e628a)
 
 ## Getting Started
 
