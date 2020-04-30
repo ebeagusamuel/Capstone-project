@@ -11,6 +11,14 @@ Basically it has 3 pages:
 - the search result page, where the result of available hotels are returned.
 - the details page, where more details of a particular hotel is displayed.
 
+#### Mobile view of the main page
+![mobile-view](https://user-images.githubusercontent.com/57847212/80711110-bfe8b980-8ae7-11ea-98cb-a6e4e0c743fa.PNG)
+
+#### Desktop view of the main page
+![desktop-view](https://user-images.githubusercontent.com/57847212/80711285-06d6af00-8ae8-11ea-8b72-911317358576.PNG)
+
+
+
 ## Built With
 
 - HTML
@@ -19,6 +27,9 @@ Basically it has 3 pages:
 ## Live Demo
 
 [Live Demo Link](https://raw.githack.com/ebeagusamuel/FindMeAHotel/f-FMAS/pages/main.html)
+
+## Video Preview
+[Video Preview Link](https://www.loom.com/share/71f193074d4048d0a3e66e7a89ae76c3)
 
 ## Getting Started
 
