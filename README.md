@@ -26,7 +26,7 @@ Basically it has 3 pages:
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/ebeagusamuel/FindMeAHotel/f-FMAS/pages/main.html)
+[Live Demo Link](https://raw.githack.com/ebeagusamuel/Capstone-project/f-FMAS/pages/main.html)
 
 ## Video Preview
 [Video Preview Link](https://www.loom.com/share/c60a90e022564af2bbba3018353e628a)
