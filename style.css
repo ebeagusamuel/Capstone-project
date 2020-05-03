@@ -407,8 +407,8 @@ li {
   color: var(--color1);
 }
 
-.iframe iframe {
-  max-width: 415px;
+.iframe-div iframe {
+  width: 100%;
 }
 
 @media screen and (min-width: 768px) {
@@ -560,18 +560,13 @@ li {
   }
 
   .details-div {
-    width: 400px;
+    width: 80%;
     margin: 0 auto;
   }
 
   .details-grid {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(4, 25px);
-  }
-
-  .details-grid iframe {
-    width: 400px;
-    height: 300px;
   }
 }
 
